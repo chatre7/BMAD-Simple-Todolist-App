@@ -7,16 +7,7 @@
 
 Scaffolded with Vite + React + TypeScript + Tailwind + Zustand to implement Stories 1.x from PRD.
 
-## Live Demo
 
-GitHub Pages: https://chatre7.github.io/BMAD-Simple-Todolist-App/
-
-Vercel (recommended for zero-config):
-- One-click deploy:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/chatre7/BMAD-Simple-Todolist-App)
-
-- Vercel auto-detects Vite. No config files needed. Build outputs to `dist`.
 
 ## Requirements
 - Node.js 18+
