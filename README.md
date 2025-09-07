@@ -3,6 +3,8 @@
 [![CI](https://github.com/chatre7/BMAD-Simple-Todolist-App/actions/workflows/ci.yml/badge.svg)](https://github.com/chatre7/BMAD-Simple-Todolist-App/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/chatre7/BMAD-Simple-Todolist-App/branch/main/graph/badge.svg)](https://codecov.io/gh/chatre7/BMAD-Simple-Todolist-App)
 
+ภาษาไทย: อ่านเอกสาร [readme.th.md](readme.th.md)
+
 Scaffolded with Vite + React + TypeScript + Tailwind + Zustand to implement Stories 1.x from PRD.
 
 ## Requirements
