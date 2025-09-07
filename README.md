@@ -40,3 +40,23 @@ See `docs/architecture/source-tree.md` for the recommended layout. This scaffold
 ## Next
 - Implement persistence (Story 1.3) using the storage adapter abstraction per `docs/architecture/storage-strategy.md`
 - Add tests for store/actions and core UI flows
+
+
+## My Note
+@pm สวัสดีครับ ผมต้องการสร้างโปรเจกต์ "Simple Todolist App" ช่วยสร้างเอกสาร PRD ให้หน่อยครับ
+
+@architect ช่วยออกแบบสถาปัตยกรรมสำหรับโปรเจกต์ Todolist โดยอิงจาก PRD ที่เพิ่งสร้างไปครับ
+
+@po ช่วยซอยเอกสาร PRD ให้เป็นไฟล์ Epics และ Stories ย่อยๆ ตามที่ออกแบบไว้หน่อยครับ
+
+@po ต่อไป ช่วยซอยเอกสาร Architecture ให้เป็นไฟล์ย่อยๆ ตามหัวข้อด้วยครับ
+
+@sm ช่วยร่างแผนการทำงานสำหรับ Story จากไฟล์ docs/stories/*.md เรียงตามลำดับ ให้หน่อยครับ โดยอิงจากเอกสาร Architecture ที่มีอยู่
+
+สร้างไฟล์ “แผนงานสตอรี่” สรุปชุดนี้ไว้ที่ docs/prd/plan-stories.md เพื่อใช้เป็น handoff ให้ dev/qa
+
+@qa *risk on the draft for docs/prd/plan-stories.md
+
+@dev ลงมือเขียนโค้ดสำหรับ Story ทั้งหมด ตามแผนที่ SM ร่างไว้เลยครับ
+
+@qa *review the implementation of the all story
