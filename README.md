@@ -7,6 +7,10 @@
 
 Scaffolded with Vite + React + TypeScript + Tailwind + Zustand to implement Stories 1.x from PRD.
 
+## Live Demo
+
+GitHub Pages: https://chatre7.github.io/BMAD-Simple-Todolist-App/
+
 ## Requirements
 - Node.js 18+
 - pnpm/npm/yarn
