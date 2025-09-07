@@ -47,7 +47,8 @@ describe('filter/search/sort', () => {
   it('sorts by createdAt desc by default', () => {
     const list = sortTodos(todos, 'createdAt');
     // first more recent than last
-    expect(new Date(list[0].createdAt).getTime()).toBeGreaterThan(new Date(list.at(-1)!.createdAt).getTime());
+    const last = list[list.length - 1];
+    expect(new Date(list[0].createdAt).getTime()).toBeGreaterThan(new Date(last.createdAt).getTime());
   });
 
   it('sorts by dueDate ranking: overdue -> near-due -> others', () => {
@@ -60,4 +61,3 @@ describe('filter/search/sort', () => {
     expect(idxSoon).toBeLessThan(idxLater);
   });
 });
-
