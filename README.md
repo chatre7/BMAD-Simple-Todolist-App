@@ -1,5 +1,7 @@
 # Simple Todolist App
 
+[![CI](https://github.com/chatre7/BMAD-Simple-Todolist-App/actions/workflows/ci.yml/badge.svg)](https://github.com/chatre7/BMAD-Simple-Todolist-App/actions/workflows/ci.yml)
+
 Scaffolded with Vite + React + TypeScript + Tailwind + Zustand to implement Stories 1.x from PRD.
 
 ## Requirements
@@ -37,4 +39,3 @@ See `docs/architecture/source-tree.md` for the recommended layout. This scaffold
 ## Next
 - Implement persistence (Story 1.3) using the storage adapter abstraction per `docs/architecture/storage-strategy.md`
 - Add tests for store/actions and core UI flows
-
