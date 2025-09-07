@@ -32,6 +32,15 @@ jobs:
       - name: Run tests with coverage
         run: npm run coverage
 
+      - name: Post coverage summary to Job Summary
+        if: ${{ always() }}
+        run: |
+          if [ -f coverage/coverage-summary.json ]; then
+            node -e "const fs=require('fs'); const p='coverage/coverage-summary.json'; const s=JSON.parse(fs.readFileSync(p,'utf8')); const t=s.total; const md=[ '## Coverage Summary', '', '| Metric | Percentage | Covered / Total |', '|---|---:|---:|', `| Lines | ${t.lines.pct}% | ${t.lines.covered} / ${t.lines.total} |`, `| Statements | ${t.statements.pct}% | ${t.statements.covered} / ${t.statements.total} |`, `| Functions | ${t.functions.pct}% | ${t.functions.covered} / ${t.functions.total} |`, `| Branches | ${t.branches.pct}% | ${t.branches.covered} / ${t.branches.total} |`, '' ].join('\n'); fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);"
+          else
+            echo "No coverage summary found" >> $GITHUB_STEP_SUMMARY
+          fi
+
       - name: Upload coverage artifact
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
@@ -42,4 +51,3 @@ jobs:
 
       - name: Build
         run: npm run build
-
