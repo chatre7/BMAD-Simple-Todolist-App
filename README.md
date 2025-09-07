@@ -1,6 +1,7 @@
 # Simple Todolist App
 
 [![CI](https://github.com/chatre7/BMAD-Simple-Todolist-App/actions/workflows/ci.yml/badge.svg)](https://github.com/chatre7/BMAD-Simple-Todolist-App/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/chatre7/BMAD-Simple-Todolist-App/branch/main/graph/badge.svg)](https://codecov.io/gh/chatre7/BMAD-Simple-Todolist-App)
 
 Scaffolded with Vite + React + TypeScript + Tailwind + Zustand to implement Stories 1.x from PRD.
 
