@@ -1,0 +1,15 @@
+# <!-- Powered by BMAD™ Core -->
+schema: 1
+story: "3.1"
+story_title: "วันครบกำหนดของงาน"
+gate: "PASS"
+status_reason: "Set/clear due date with UTC conversion; near-due/overdue indicators and styling."
+reviewer: "Quinn (Test Architect)"
+updated: "2025-09-07T13:45:00Z"
+waiver: { active: false }
+top_issues: []
+risk_summary:
+  totals: { critical: 0, high: 0, medium: 0, low: 0 }
+  recommendations:
+    must_fix: []
+    monitor: []

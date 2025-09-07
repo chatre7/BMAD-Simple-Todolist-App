@@ -1,0 +1,20 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# Build
+dist/
+
+# Env/OS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Coverage
+coverage/
+
+# BMAD/AI
+.ai/
